@@ -1,0 +1,312 @@
+
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+main {
+    width: 100%;
+    min-height: 899px;
+    min-width: 1200px;
+    /* height: 100vh; */
+    position: relative;
+    z-index: 10;
+    transition: 0.5s;
+}
+.main3{
+    padding-top: 56.25%;
+}
+.text3{
+    padding-top: 56.25%;
+}
+.star > *{
+    padding-top: 56.25%;
+}
+article {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+
+    transition: 0.5s;
+
+}
+
+section {
+    width: 100%;
+
+    transition: 1s;
+    overflow: hidden;
+}
+
+.main_cont {
+    width: 100%;
+    min-width: 100%;
+    min-width: 1200px;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+}
+
+.main_cont>div:first-child {
+    width: 100%;
+    height: 100%;
+}
+
+.main_cont>* {
+    display: flex;
+    align-items: center;
+    /* 수직 가운데 정렬 */
+    justify-content: center;
+    /* 수평 가운데 정렬 */
+}
+
+.main_cont>div>video {
+    width: 100%;
+    max-width: 130%;
+    min-width: 1200px;
+    height: 100vh;
+    z-index: -1;
+
+    object-fit: cover;
+}
+
+
+
+
+
+/*텍스트*/
+.text1 {
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 2;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.cof_text {
+    position: relative;
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 3;
+}
+
+.min_text {
+    position: relative;
+    padding: 20px;
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 3;
+}
+
+/*텍스트 호버 효과*/
+.cof_text::after,
+.min_text::after {
+    display: block;
+    content: '';
+    border-bottom: solid 40px #ea2129;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cof_text:hover::after,
+.min_text:hover::after {
+    transform: scaleX(1);
+    bottom: -10px;
+}
+
+/* 푸드 페이지 */
+.menu_wrap{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+}
+.menu_wrap a img{
+    width: 100%;
+    height: 100%;
+}
+.win_text {
+    position: absolute;
+    left: 300px;
+    top: 480px;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+}
+
+.dep_text {
+    position: absolute;
+    left: 390px;
+    top: 530px;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    opacity: 0;
+}
+
+
+.tatCh {
+    position: absolute;
+    right: 850px;
+    top: 355px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+.macron {
+    position: absolute;
+    right: 560px;
+    bottom: 259px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+/* md 상품 페이지 */
+.md_wrap{
+    position: relative;
+    aspect-ratio: 16/9;
+}
+
+.hol_text {
+    position: absolute;
+    left: 830px;
+    top: 490px;
+    padding: 20px;
+    color: transparent;
+    font-size: 60px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    opacity: 0;
+}
+
+.dep2_text {
+    position: absolute;
+    left: 680px;
+    top: 550px;
+    padding: 20px;
+    color: transparent;
+    /* 글자 색을 투명하게 설정 */
+    font-size: 60px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    opacity: 0;
+    /* 외곽선 색을 흰색으로 설정 */
+}
+
+/* 텍스트 페이드 인 효과 */
+.text-fade-in {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    transition: opacity 0.5s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.star{
+    position: relative;
+    aspect-ratio: 16/9;
+}
+.star1{
+    animation: motion 0.8s linear 0s infinite alternate;
+    position: absolute;
+    right: 800px;
+    bottom: 45px;
+    height: 70px;
+    width: 70px; 
+}
+.star2{
+    animation: motion 0.9s linear 0s infinite alternate;
+    position: absolute;
+    right: 1080px;
+    bottom: 55px;
+    height: 30px;
+    width: 30px; 
+}
+.star3{
+    animation: motion 0.4s linear 0s infinite alternate;
+    position: absolute;
+    right: 1140px;
+    bottom: -30px;
+    height: 50px;
+    width: 50px; 
+}
+.star4{
+    animation: motion 0.7s linear 0s infinite alternate;
+    position: absolute;
+    right: 1100px;
+    bottom: -155px;
+    height: 40px;
+    width: 40px; 
+}
+.star5{
+    animation: motion 0.5s linear 0s infinite alternate;
+    position: absolute;
+    right: 800px;
+    bottom: -195px;
+    height: 30px;
+    width: 30px; 
+}
+.star6{
+    animation: motion 0.6s linear 0s infinite alternate;
+    position: absolute;
+    right: 750px;
+    bottom: -30px;
+    height: 30px;
+    width: 30px; 
+}
+
+@keyframes motion {
+    0% {
+        margin-top: 200px;
+    }
+
+    100% {
+        margin-bottom: 13px;
+    }
+}

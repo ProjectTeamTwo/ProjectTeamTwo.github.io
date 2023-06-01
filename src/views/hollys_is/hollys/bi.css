@@ -1,0 +1,128 @@
+a {
+  color: inherit;
+}
+
+/* banner */
+.hollys_is--banner {
+  color: white;
+  height: 100vh;
+  background: url("../../../assets/images/hollysis/bi_banner.jpg") no-repeat;
+  background-position-y: 40%;
+  background-size: cover;
+}
+/* main */
+
+/* bi content */
+.bi_content--wrap {
+  width: 1200px;
+  margin: 0 auto 100px;
+  display: flex;
+}
+.bi_content {
+  width: 100%;
+}
+.bi_content h2 {
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+.bi_sub--title {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.bi_sub--title p {
+  font-size: 28px;
+  color: #4f4c4b;
+}
+.bi_sub--title h3 {
+  font-size: 32px;
+}
+.bi_download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.bi_download--btn a {
+  color: white;
+  padding: 10px 20px;
+  background: #c72f30;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.bi_border--bottom {
+  border-bottom: 5px solid #c72f30;
+}
+.bi_img {
+  height: 250px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+.bi_img img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.bi_img img:first-child {
+  border-right: 1px solid black;
+  box-sizing: border-box;
+}
+.bi_download--hollyscolor {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.bi_download--hollyscolor > p {
+  width: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.bi_hollyscolor {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #c72f30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.bi_crown {
+  margin-bottom: 200px;
+}
+.bi_crown--img {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.bi_crown_content p {
+  font-size: 16px;
+}
+.bi_crown_content img:nth-child(2),
+.bi_crown_content img:nth-child(4) {
+  width: 50px;
+}
+.bi_history {
+  margin-bottom: 50px;
+}
+.bi_history--img_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bi_history--img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.bi_history--arrow {
+  width: 50px;
+}

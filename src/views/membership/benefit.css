@@ -1,0 +1,175 @@
+/**     main     **/
+
+/**     banner     **/
+main .banner_wrap {
+  height: 100vh;
+  background: url(/src/assets/images/membership/membership.png);
+  background-size: cover;
+  position: relative;
+}
+main .banner_wrap .banner {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .banner_wrap h2 {
+  width: 500px;
+  color: #fff;
+  font-size: 65px;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 3px solid rgb(199, 47, 47);
+}
+main .banner_wrap .lnb {
+  margin-top: 30px;
+  height: 60px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .banner_wrap .lnb li {
+  padding: 10px 15px;
+  align-items: center;
+  background: rgba(150, 150, 150, 0.39);
+}
+main .banner_wrap .lnb li:hover {
+  background: #c72f30;
+  transition: 0.5s;
+}
+main .banner_wrap .lnb li:nth-child(1) {
+  margin-right: 30px;
+}
+main .banner_wrap .lnb li.active {
+  background: #c72f30;
+}
+main .banner_wrap .lnb li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/**     contents     **/
+main .content {
+  width: 1200px;
+  margin: auto;
+}
+
+/**     location     **/
+main .content .location {
+  padding: 100px 0 0;
+}
+main .content .location span::after {
+  content: " >";
+}
+main .content .location span:last-child::after {
+  content: " ";
+}
+main .content .location a {
+  font-size: 13px;
+}
+
+main .content .m_benefit h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px 0 40px 0;
+}
+
+main .content .m_benefit > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .content .m_benefit > div > div {
+  width: 24%;
+  height: 500px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+main .content .m_benefit > div > div .grade {
+  font-weight: bold;
+  font-size: 20px;
+}
+main .content .m_benefit > div .silver .grade {
+  color: #a9a9a9;
+}
+main .content .m_benefit > div .gold .grade {
+  color: #c5a56c;
+}
+main .content .m_benefit > div .red .grade {
+  color: #ba000c;
+}
+main .content .m_benefit > div > div .grade img {
+  width: 200px;
+  height: 200px;
+}
+main .content .m_benefit > div > div .grade div {
+  margin: -20px 0 0 0;
+}
+main .content .m_benefit > div > div .grade p {
+  margin: 0px 0 20px 0;
+}
+
+main .content .m_benefit > div > div .text {
+  font-size: 15px;
+  text-align: left;
+  padding: 0 5px;
+}
+main .content .m_benefit > div > div .text div ul li {
+  padding-bottom: 8px;
+}
+main .content .m_benefit > div .gold .text .ben {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #a9a9a9;
+}
+main .content .m_benefit > div .red .text .ben {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #c5a56c;
+}
+main .content .m_benefit > div .dia .text .ben {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ba000c;
+}
+main .content .m_benefit > div .silver .text .ben {
+  margin-top: 80px;
+}
+main .content .m_benefit > div div .text .plus_ben {
+  margin-top: 40px;
+}
+
+/**     notice     **/
+main .content .notice {
+  margin: 100px 0;
+  padding: 20px 0;
+}
+main .content .notice h3 {
+  color: #535252;
+  font-weight: bold;
+}
+main .content .notice > ul {
+  padding-left: 30px;
+  color: #6f6f6f;
+  line-height: 1.4;
+}
+main .content .notice ul ul {
+  padding-bottom: 5px;
+}
+main .content .notice ul ul li {
+  list-style: "- ";
+  line-height: 1.5;
+}
+
+/**     글씨 숨기기     **/
+.hide {
+  width: 0;
+  height: 0;
+  text-indent: -999px;
+}

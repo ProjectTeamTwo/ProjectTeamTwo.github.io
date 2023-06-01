@@ -1,0 +1,144 @@
+a {
+  color: inherit;
+}
+
+/* banner */
+.hollys_is--banner {
+  color: white;
+  height: 100vh;
+  background: url("../../../assets/images/hollysis/about_hollys_banner.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+/* main */
+
+/* about content */
+.about_content--wrap {
+  width: 1200px;
+  margin: 0 auto 100px;
+}
+.about_content--top {
+  margin-bottom: 200px;
+}
+.about_sub--title_top {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+.about_sub--title_top span {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.about_content--top_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.about_content--top_main p {
+  font-size: 28px;
+  font-weight: 700;
+  width: 450px;
+  line-height: 1.5;
+}
+.about_content--top_main span {
+  border-bottom: 5px solid #c72f30;
+}
+.about_content--top_detail {
+  font-size: 16px;
+  text-align: center;
+  color: #4f4c4b;
+}
+
+/* about content mid */
+.about_content--mid {
+  margin-bottom: 200px;
+}
+.about_sub--title {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+.about_content--mid_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.about_content--mid_main img {
+  width: 400px;
+}
+.about_content--mid_main p {
+  font-size: 16px;
+  width: 750px;
+}
+.about_content--mid_main span {
+  font-size: 28px;
+  font-weight: 700;
+}
+.about_content--mid_sub {
+  text-align: center;
+}
+.about_content--mid_sub--txt {
+  margin-bottom: 50px;
+}
+.about_content--mid_sub--academy p {
+  font-size: 16px;
+  color: #4f4c4b;
+  margin-bottom: 10px;
+}
+.about_content--mid_sub--academy a {
+  font-size: 16px;
+  background: #c72f30;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.about_content--mid_sub--academy a:hover {
+  color: black;
+  background: rgba(128, 128, 128, 0.39);
+}
+.about_content--mid_sub p:last-child {
+  font-size: 16px;
+  color: #c72f30;
+}
+/* about content bottom */
+.about_content--bottom_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.about_content--bottom_main p {
+  font-size: 16px;
+  width: 750px;
+}
+.about_content--bottom_main span {
+  font-size: 28px;
+  font-weight: 700;
+}
+.about_content--bottom_main--img,
+.about_content--bottom_main--img img {
+  width: 400px;
+}
+.about_content--bottom_sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_content--bottom_sub p {
+  font-size: 16px;
+  width: 750px;
+}
+.about_content--bottom_sub span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.about_content--bottom_sub--img img {
+  width: 400px;
+}
